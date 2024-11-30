@@ -4,8 +4,149 @@
   box-sizing: border-box;
 }
 
-.header {
-    width: auto;
-    height: 70px;
-    background-color: #EC715F;
+header {
+  width: auto;
+  height: 70px;
+  background-color: #EC715F;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-items {
+  width: 1024px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo img {
+  height: 70px;
+}
+
+.container {
+  height: 70px;
+  display: flex;
+}
+
+.item {
+  list-style: none;
+  font-size: 16px;
+  color: #FAFAFA;
+  padding: 0 30px
+}
+
+main {
+  width: auto;
+  margin: 0 auto;
+}
+
+.main-visual {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+}
+
+.visual-title {
+  font-size: 64px;
+  padding-top: 200px;
+  color: #FAFAFA;
+}
+
+.visual-sub {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #FAFAFA;
+}
+
+.portfolio {
+  height: auto;
+  background-color: #ECEFF1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  width: 920px;
+  padding: 90px 0;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.bar {
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto;
+}
+
+.portfolio-sub {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.container3 {
+  display: flex;
+}
+
+.item1 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/sketch.jpg);
+  background-position: center;
+  background-size: 300px 250px;
+}
+
+.item2 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px;
+  background-image: url(img/websuku.png);
+  background-position: center;
+  background-size: 300px 250px;
+}
+
+.item3 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/write.jpg);
+  background-position: center;
+  background-size: 300px 250px;
+}
+
+.container4 {
+  display: flex;
+}
+
+.item4 {
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  background-image: url(img/webcamp.png);
+  background-position: center;
+  background-size: 300px 250px;
+}
+
+.item5 {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 10px;
+  background-image: url(img/talk.jpg);
+  background-position: center;
+  background-size: 300px 250px;
+}
+
+.item6 {
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  background-image: url(img/webcamp-mother.png);
+  background-position: center;
+  background-size: 300px 250px;
 }

@@ -109,7 +109,7 @@ main {
   margin: 0 10px;
   background-image: url(img/websuku.png);
   background-position: center;
-  background-size: 300px 250px;
+  background-size: 150%;
 }
 
 .item3 {
@@ -130,7 +130,7 @@ main {
   margin-top: 10px;
   background-image: url(img/webcamp.png);
   background-position: center;
-  background-size: 300px 250px;
+  background-size: 150%;
 }
 
 .item5 {
@@ -148,5 +148,146 @@ main {
   margin-top: 10px;
   background-image: url(img/webcamp-mother.png);
   background-position: center;
-  background-size: 300px 250px;
+  background-size: 150%;
+}
+
+.feature {
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container5 {
+  width: 980px;
+  padding: 90px 0;
+}
+
+.feature-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.feature-sub {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.container6 {
+  display: flex;
+}
+
+.row2 {
+  padding: 0 10px;
+}
+
+.fa-dumbbell {
+  font-size: 60px;
+}
+
+.fa-dumbbell-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.fa-dumbbell-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.fa-hand-fist {
+  font-size: 60px;
+}
+
+.fa-hand-fist-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.fa-hand-fist-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.fa-street-view {
+  font-size: 60px;
+}
+
+.fa-street-view-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.fa-street-view-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.profile {
+  height: auto;
+  background-color: #ECEFF1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container7 {
+  width: 1024px;
+  padding: 90px 0;
+}
+
+.profile-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.profile-sub {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.container8 {
+  display: flex;
+}
+
+.profile-item1 {
+  width: 520px;
+}
+
+.profile-photo {
+  height: 250px;
+}
+
+.profile-item2 {
+  width: 520px;
+  text-align: left;
+}
+
+.myname {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.myname-item {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.myskills {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.myskills-item {
+  font-size: 16px;
+  color: #000000;
 }

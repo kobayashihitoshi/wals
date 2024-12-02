@@ -263,7 +263,7 @@ main {
 }
 
 .profile-photo {
-  height: 250px;
+  border-radius: 100%;
 }
 
 .profile-item2 {
@@ -290,4 +290,60 @@ main {
 .myskills-item {
   font-size: 16px;
   color: #000000;
+}
+
+.contact {
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container9 {
+  width: 800px;
+  padding: 90px 0;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.contact-sub {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.container10 {
+  display: flex;
+}
+
+.contact-field1 {
+  width: 400px;
+  display: block;
+}
+
+.contact-text {
+  font-size: 20px;
+  padding-bottom: 5px;
+  
+}
+
+.contact-item {
+  font-size:16px;
+  margin-bottom: 20px;
+}
+
+.contact-field2 {
+  width: 400px;
+  display: block;
+}
+
+.fa-brands {
+  font-size: 50px;
+}
+
+.fa-twitter {
+  padding: 0 20px;
 }

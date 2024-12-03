@@ -317,27 +317,34 @@ main {
 
 .container10 {
   display: flex;
+  
 }
 
 .contact-field1 {
   width: 400px;
-  display: block;
 }
 
 .contact-text {
   font-size: 20px;
   padding-bottom: 5px;
-  
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px; 
 }
 
 .contact-item {
   font-size:16px;
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px; 
 }
 
 .contact-field2 {
   width: 400px;
-  display: block;
 }
 
 .fa-brands {
@@ -346,4 +353,18 @@ main {
 
 .fa-twitter {
   padding: 0 20px;
+}
+
+footer {
+  width: auto;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
 }
